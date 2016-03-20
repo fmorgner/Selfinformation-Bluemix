@@ -1,0 +1,7 @@
+applications:
+  - name: selfinformation-cloud-bluemix
+    host: selfinformation-cloud-bluemix
+    path: target/Selfinformation.war
+    memory: 256M
+    env:
+      JBP_CONFIG_LIBERTY: 'app_archive: {features: [servlet-3.1, jsp-2.3]}'
